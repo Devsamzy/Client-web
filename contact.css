@@ -20,7 +20,7 @@
     
 }
 #contact{
-  width: 50px;
+  width: 40px;
  display: flex;
  justify-content: center;
   border-bottom: 2px solid black;
@@ -29,7 +29,7 @@
   margin: 10px 30px;
 }
 #contact:nth-child(3){
-  margin-left:60px
+  margin-left:80px
 }
 #about{
   padding: 10px;

@@ -23,7 +23,9 @@ else {
 
 function order() {
   // Tab to edit
-  
+var name=document.getElementById('name');
+var email=document.getElementById('email');
+var no=document.getElementById('no');
   var price=document.querySelector('#price');
 var goods=document.querySelector('#goods');
 var state=document.getElementById('state');
@@ -33,8 +35,8 @@ if (goods.value=='') {
   alert('Please Input A Number')
 }
 else {
-  var msg='Hello, I Will Like To Order '+goods.value+' Quantity Of Your Strong Man Product And I Reside In '+location+'. Thanks You Very Much!.';
-console.log(msg);
+  var msg='Hello, My name Is '+name.value+'. I Will Like To Order '+goods.value+' Quantity Of Your Strong Man Product And I Reside In '+location+'. You Can Contact Me Through '+no.value+'. Thank You Very Much!.';
+//console.log(msg);
 window.location.href="https://wa.me/+2348026577678?text="+msg;
 }
 }
