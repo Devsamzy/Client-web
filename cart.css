@@ -1,0 +1,73 @@
+td .img-fluid{
+  width: 60px;
+  border-radius: 5px
+}
+.site-blocks-table {
+  overflow: auto; }
+  .site-blocks-table .product-thumbnail {
+    width: 200px; }
+  .site-blocks-table .btn {
+    padding: 2px 10px; }
+  .site-blocks-table thead th {
+    padding: 30px;
+    text-align: center;
+    border-width: 0px !important;
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 18px; }
+  .site-blocks-table td {
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 0.8); }
+  .site-blocks-table tbody tr:first-child td {
+    border-top: 1px solid #3b5d50 !important; }
+  .site-blocks-table .btn {
+    background: none !important;
+    color: #000000;
+    border: none;
+    height: auto !important; }
+
+.site-block-order-table th {
+  border-top: none !important;
+  border-bottom-width: 1px !important; }
+
+.site-block-order-table td, .site-block-order-table th {
+  color: #000000; }
+
+
+
+
+.sub{
+  padding: 10px;
+  text-align: center;
+  color: var(--bg);
+}
+.subhead{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.sub.lt{
+  color: red;
+  margin-top: 10px
+}
+.topic{
+  color: var(--bg);
+  font-weight: 700;
+  font-size: 25px;
+  margin: 10px;
+  margin-top: 30px
+}
+.quest{
+  font-size: 20px;
+  margin:  10px 0px;
+  color: var(--bg);
+}
+hr{
+  background: #333 ;
+  margin-top: 10px;
+  border: black solid 0.7px;
+  
+}
